@@ -7,7 +7,7 @@ const usePokemon: any = () => {
     const teamOfPokemonName: string[] = [];
     const pokemonsName = Object.keys(pokemons);
     while (teamOfPokemonName.length !== 6) {
-      const randomPokemonNo: number = random.getRandomOfRange(0, pokemonsName.length);
+      const randomPokemonNo: number = random.getRandomOfRange(0, pokemonsName.length - 1);
       const targetPokemonName: string = pokemonsName[randomPokemonNo];
       if (!teamOfPokemonName.includes(targetPokemonName)) {
         teamOfPokemonName.push(targetPokemonName);
