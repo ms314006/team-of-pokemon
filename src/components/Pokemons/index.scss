@@ -1,0 +1,15 @@
+.main {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 400px 560px;
+}
+
+.mainPokemon {
+  padding: 90px 0px 0px 40px;
+}
+
+.secondaryPokemon {
+  padding: 40px 0px 0px 0px;
+}
