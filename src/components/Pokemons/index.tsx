@@ -19,6 +19,7 @@ const Pokemons: React.FC = () => {
         {
           teamOfPokemons.slice(1).map((pokemon: string) => (
             <SecondaryPokemon
+              key={pokemon}
               name={pokemon}
               icon={pokemons[pokemon]}
             />

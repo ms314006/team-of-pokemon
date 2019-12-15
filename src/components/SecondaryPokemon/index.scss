@@ -10,5 +10,10 @@
 .mainDecoration {
   width: 100%;
   height: 100%;
+  position: relative;
   background: linear-gradient(#4f90d0 65%, #87c0d6 65%, #87c0d6 66%, #4f90d0 66%, #4f90d0 67%, #87c0d6 67%,);
+}
+
+.information {
+  position: relative;
 }
