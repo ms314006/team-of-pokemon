@@ -1,0 +1,17 @@
+.gameBackground {
+  position: relative;
+  width: 960px;
+  height: 570px;
+  background: #8b9641;
+}
+
+.backgroundDecoration {
+  position: absolute;
+  width: 860px;
+  height: 500px;
+  top: 35px;
+  right: 0px;
+  border-radius: 50px 0px 0px 50px;
+  background: linear-gradient(#c1c37c 50%, #8b9641 50%);
+  background-size: 100% 10px;
+}
