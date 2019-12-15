@@ -1,7 +1,36 @@
 .pokemonBall {
   position: absolute;
-  border: 3px #000000 solid;
-  border-radius: 50%;
   width: 64px;
   height: 64px;
+}
+
+.topOfPokemonBall {
+  position: absolute;
+  border-radius: 100px 100px 0 0;
+  height: 32px;
+  width: 64px;
+  background: #a8441d;
+  border: 3px #000000 solid;
+}
+
+.bottomOfPokemonBall {
+  position: absolute;
+  top: 32px;
+  border-radius: 0 0 100px 100px;
+  height: 32px;
+  width: 64px;
+  background: #b5becc;
+  border: 3px #000000 solid;
+}
+
+.centerOfPokemonBall {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  border-radius: 50%;
+  height: 16px;
+  width: 16px;
+  background: #b5becc;
+  border: 3px #000000 solid;
+  z-index: 1;
 }
