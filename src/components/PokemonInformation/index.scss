@@ -1,0 +1,18 @@
+.main {
+  position: absolute;
+  display: flex;
+  align-items: flex-end;
+  color: #FFFFFF;
+}
+
+.nameAndLevel {
+  overflow: hidden;
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+}
+
+.gender {
+  font-size: 22px;
+  font-weight: bold;
+}

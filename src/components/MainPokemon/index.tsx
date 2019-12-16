@@ -1,6 +1,7 @@
 import React from 'react';
 import PokemonIcon from '../PokemonIcon';
 import PokemonBall from '../PokemonBall';
+import PokemonInformation from '../PokemonInformation';
 import styles from './index.scss';
 
 export interface pokeminProps {
@@ -8,7 +9,7 @@ export interface pokeminProps {
   icon: string;
 }
 
-const MainPokemon: React.FC<any> = (props: pokeminProps) => {
+const MainPokemon: React.FC<pokeminProps> = (props: pokeminProps) => {
   const { name, icon } = props;
   return (
     <div className={styles.main}>
@@ -16,7 +17,7 @@ const MainPokemon: React.FC<any> = (props: pokeminProps) => {
         <PokemonBall position={{ top: -30, left: -30 }} />
         <div className={styles.information}>
           <PokemonIcon pokemon={icon} />
-          {name}
+          <PokemonInformation name={name} position={{ top: 36, left: 80 }} />
         </div>
       </div>
     </div>

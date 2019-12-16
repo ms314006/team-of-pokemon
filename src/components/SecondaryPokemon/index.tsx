@@ -1,6 +1,7 @@
 import React from 'react';
 import PokemonIcon from '../PokemonIcon';
 import PokemonBall from '../PokemonBall';
+import PokemonInformation from '../PokemonInformation';
 import { pokeminProps } from '../MainPokemon';
 import styles from './index.scss';
 
@@ -12,7 +13,7 @@ const SecondaryPokemon: React.FC<pokeminProps> = (props: pokeminProps) => {
         <PokemonBall position={{ top: 0, left: -35 }} />
         <div className={styles.information}>
           <PokemonIcon pokemon={icon} />
-          <span>{name}</span>
+          <PokemonInformation name={name} position={{ top: 10, left: 88 }} />
         </div>
       </div>
     </div>
