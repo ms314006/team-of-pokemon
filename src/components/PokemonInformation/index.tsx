@@ -1,4 +1,5 @@
 import React from 'react';
+import HP from '../HP';
 import random from '../../utils/random';
 import styles from './index.scss';
 
