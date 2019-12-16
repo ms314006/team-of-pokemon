@@ -11,8 +11,8 @@ const Pokemons: React.FC = () => {
     <div className={styles.main}>
       <div className={styles.mainPokemon}>
         <MainPokemin
-          name={teamOfPokemons.slice(0, 1)}
-          icon={pokemons[teamOfPokemons.slice(0, 1)]}
+          name={teamOfPokemons[0]}
+          icon={pokemons[teamOfPokemons[0]]}
         />
       </div>
       <div className={styles.secondaryPokemon}>
