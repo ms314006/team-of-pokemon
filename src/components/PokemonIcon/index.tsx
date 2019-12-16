@@ -8,11 +8,13 @@ interface PokeminIconProps {
 const PokemonIcon = (props: PokeminIconProps) => {
   const { pokemon } = props;
   return (
-    <img
-      className={styles.pokemonIcon}
-      alt={pokemon}
-      src={`https://img.pokemondb.net/sprites/sun-moon/icon/${pokemon}.png`}
-    />
+    <div className={styles.main}>
+      <img
+        className={styles.pokemonIcon}
+        alt={pokemon}
+        src={`https://img.pokemondb.net/sprites/sun-moon/icon/${pokemon}.png`}
+      />
+    </div>
   );
 };
 

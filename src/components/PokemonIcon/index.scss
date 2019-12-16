@@ -1,3 +1,26 @@
+.main {
+  position: relative;
+}
+
 .pokemonIcon {
-  zoom: 200%
+  zoom: 200%;
+  position: absolute;
+  animation-name: pokemonMove;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pokemonMove{
+  0% {
+    top: 0;
+  }
+  25% {
+    top: -1;
+  }
+  75% {
+    top: 1;
+  }
+  100% {
+    top: 0;
+  }
 }
