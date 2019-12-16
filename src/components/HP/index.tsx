@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './index.scss'
 
 interface HPProps {
+  value: number
   mode: string
   position: {
     top: number;
@@ -10,7 +11,7 @@ interface HPProps {
 }
 
 const HP: React.FC<HPProps> = (props: HPProps) => {
-  const { position, mode } = props;
+  const { position, mode, value } = props;
   const width = mode === 'main' ? 260 : 212;
   return (
     <div
@@ -24,7 +25,7 @@ const HP: React.FC<HPProps> = (props: HPProps) => {
         <div className={styles.displayHp} style={{ width: width - 44 }} />
       </div>
       <div className={styles.hpNumber} style={{ width }}>
-        <span>216  /  216</span>
+        <span>{`${value}  /  ${value}`}</span>
       </div>
     </div>
   );

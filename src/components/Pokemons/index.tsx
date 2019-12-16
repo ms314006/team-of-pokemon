@@ -11,17 +11,15 @@ const Pokemons: React.FC = () => {
     <div className={styles.main}>
       <div className={styles.mainPokemon}>
         <MainPokemon
-          name={teamOfPokemons[0]}
-          icon={pokemons[teamOfPokemons[0]]}
+          pokemon={teamOfPokemons[0]}
         />
       </div>
       <div className={styles.secondaryPokemon}>
         {
-          teamOfPokemons.slice(1).map((pokemon: string) => (
+          teamOfPokemons.slice(1).map((pokemon: any) => (
             <SecondaryPokemon
-              key={pokemon}
-              name={pokemon}
-              icon={pokemons[pokemon]}
+              key={pokemon.name}
+              pokemon={pokemon}
             />
           ))
         }
