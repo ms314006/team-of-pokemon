@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import MainPokemin from '../MainPokemon';
+import MainPokemon from '../MainPokemon';
 import SecondaryPokemon from '../SecondaryPokemon';
 import PokemonContext from '../../contexts/PokemonContext';
 import pokemons from '../../asset/pokemons';
@@ -10,7 +10,7 @@ const Pokemons: React.FC = () => {
   return (
     <div className={styles.main}>
       <div className={styles.mainPokemon}>
-        <MainPokemin
+        <MainPokemon
           name={teamOfPokemons[0]}
           icon={pokemons[teamOfPokemons[0]]}
         />
