@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './index.scss';
 
-const GameBackground: React.FC = (props) => {
+const GameLayout: React.FC = (props) => {
   const { children } = props;
   return (
     <div className={styles.gameBackground}>
@@ -11,4 +11,4 @@ const GameBackground: React.FC = (props) => {
   );
 };
 
-export default GameBackground;
+export default GameLayout;

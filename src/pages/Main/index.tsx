@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from 'nes-react';
-import GameBackground from '../../components/GameBackground';
+import GameLayout from '../../components/GameLayout';
 import Pokemons from '../../components/Pokemons';
 import usePokemon from '../../hooks/usePokemon';
 import PokemonContext from '../../contexts/PokemonContext';
@@ -11,11 +11,11 @@ const Main: React.FC = () => {
   return (
     <div className={styles.main}>
       <Container>
-        <GameBackground>
+        <GameLayout>
           <PokemonContext.Provider value={pokemonControl}>
             <Pokemons />
           </PokemonContext.Provider>
-        </GameBackground>
+        </GameLayout>
       </Container>
     </div>
   );
