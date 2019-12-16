@@ -2,6 +2,7 @@ import React from 'react';
 import { Container } from 'nes-react';
 import GameLayout from '../../components/GameLayout';
 import Pokemons from '../../components/Pokemons';
+import GenerateTeamBtn from '../../components/GenerateTeamBtn';
 import usePokemon from '../../hooks/usePokemon';
 import PokemonContext from '../../contexts/PokemonContext';
 import styles from './index.scss';
@@ -14,6 +15,7 @@ const Main: React.FC = () => {
         <GameLayout>
           <PokemonContext.Provider value={pokemonControl}>
             <Pokemons />
+            <GenerateTeamBtn />
           </PokemonContext.Provider>
         </GameLayout>
       </Container>
