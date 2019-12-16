@@ -1,0 +1,23 @@
+.main {
+  position: absolute;
+  bottom: 6px;
+  left: 8px
+}
+
+.messageBorder {
+  width: 532px;
+  height: 120px;
+  padding: 8px;
+  border: 4px #000000 solid;
+  border-radius: 8px;
+  background: linear-gradient(#8c8b93, #6e6d7d);
+}
+
+.messageBox {
+  padding: 8px;
+  font-size: 24px;
+  width: 508px;
+  height: 96px;
+  background: #ffffff;
+  border-radius: 8px;
+}
