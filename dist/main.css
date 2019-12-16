@@ -1,0 +1,22 @@
+.src-components-GameLayout-___index__gameBackground___1kyu6{position:relative;width:960px;height:570px;background:#8b9641}.src-components-GameLayout-___index__backgroundDecoration___3jOHh{position:absolute;width:860px;height:500px;top:35px;right:0px;border-radius:50px 0px 0px 50px;background:linear-gradient(#c1c37c 50%, #8b9641 50%);background-size:100% 10px}
+
+.src-components-PokemonIcon-___index__main___46Gns{position:relative}.src-components-PokemonIcon-___index__pokemonIcon___2WMzJ{zoom:200%;position:absolute;animation-name:src-components-PokemonIcon-___index__pokemonMove___1zBJv;animation-duration:0.5s;animation-iteration-count:infinite}@keyframes src-components-PokemonIcon-___index__pokemonMove___1zBJv{0%{top:0}25%{top:-1}75%{top:1}100%{top:0}}
+
+.src-components-PokemonBall-___index__pokemonBall___2mKFD{position:absolute;width:64px;height:64px}.src-components-PokemonBall-___index__topOfPokemonBall___2X554{position:absolute;border-radius:100px 100px 0 0;height:32px;width:64px;background:#a8441d;border:3px #000000 solid}.src-components-PokemonBall-___index__bottomOfPokemonBall___145D1{position:absolute;top:32px;border-radius:0 0 100px 100px;height:32px;width:64px;background:#b5becc;border:3px #000000 solid}.src-components-PokemonBall-___index__centerOfPokemonBall___nBX2f{position:absolute;top:24px;left:24px;border-radius:50%;height:16px;width:16px;background:#b5becc;border:3px #000000 solid;z-index:1}
+
+.src-components-PokemonInformation-___index__main___ZY0Yc{position:absolute;display:flex;align-items:flex-end;color:#FFFFFF}.src-components-PokemonInformation-___index__nameAndLevel___1k51R{overflow:hidden;width:180px;display:flex;flex-direction:column}.src-components-PokemonInformation-___index__gender___14UvY{font-size:24px;font-weight:bold}
+
+.src-components-HP-___index__main___25aVF{position:absolute;display:flex;flex-direction:column}.src-components-HP-___index__hpBorder___oAKyH{padding-left:8px;height:22px;color:#e8b86c;background:#000000;border-radius:30px}.src-components-HP-___index__displayHp___1OAOu{position:absolute;top:2px;left:42px;height:16px;border:2px #ffffff solid;border-radius:30px;background:linear-gradient(#8fd29e, #c4ead3)}.src-components-HP-___index__hpNumber___39pNB{padding-right:4px;color:#FFFFFF;text-align:right}
+
+.src-components-MainPokemon-___index__main___24iGu{width:300px;height:160px;padding:4px 0px 0px 4px;border:3px #000 solid;border-radius:5px;background:#87c0d6}.src-components-MainPokemon-___index__mainDecoration___1JGL5{width:100%;height:100%;position:relative;background:linear-gradient(#4f90d0 61%, #87c0d6 61%, #87c0d6 64%, #4f90d0 64%, #4f90d0 66%, #87c0d6 66%)}.src-components-MainPokemon-___index__information___23D_x{position:relative}
+
+.src-components-SecondaryPokemon-___index__main___1snM0{width:520px;height:70px;margin-bottom:12px;border:3px #000 solid;border-radius:5px;background:#87c0d6}.src-components-SecondaryPokemon-___index__mainDecoration___1Cs4e{width:100%;height:100%;position:relative;background:linear-gradient(#4f90d0 65%, #87c0d6 65%, #87c0d6 68%, #4f90d0 68%, #4f90d0 70%, #87c0d6 70%)}.src-components-SecondaryPokemon-___index__information___1cjwP{position:relative;left:-10px;z-index:5}
+
+.src-components-Pokemons-___index__main___zV03a{position:absolute;height:100%;width:100%;display:grid;grid-template-columns:400px 560px}.src-components-Pokemons-___index__mainPokemon___Bs7HH{padding:90px 0px 0px 40px}.src-components-Pokemons-___index__secondaryPokemon___jRDoq{padding:40px 0px 0px 0px}
+
+.src-components-GenerateTeamBtn-___index__main____SMBs{position:absolute;bottom:52px;right:40px}.src-components-GenerateTeamBtn-___index__generateButton___PmRcX{padding:4px 16px;border:4px #000 solid;border-radius:14px;background:#6b5fa1;color:#FFFFFF}
+
+.src-components-MessageBox-___index__main___1JIeL{position:absolute;bottom:6px;left:8px}.src-components-MessageBox-___index__messageBorder___26Z4m{width:532px;height:120px;padding:8px;border:4px #000000 solid;border-radius:8px;background:linear-gradient(#8c8b93, #6e6d7d)}.src-components-MessageBox-___index__messageBox___1zAvB{padding:8px;font-size:24px;width:508px;height:96px;background:#ffffff;border-radius:8px}
+
+.src-pages-Main-___index__main___3vH2T{overflow:auto;display:flex;justify-content:center;align-items:center;width:100%;height:100%;background:#00497d}
+
